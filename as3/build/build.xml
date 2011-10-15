@@ -1,0 +1,35 @@
+<project name="IconicTasks" basedir=".." default="main">
+	
+	<property file="build/build.properties" />
+	
+	<condition property="FLEX_HOME" value="/Applications/Adobe Flex Builder 3/sdks/3.2.0">
+	        <os family="mac"/>
+	    </condition>
+	    
+	    <condition property="FLEX_HOME" value="${FLEX_HOME_WIN}">
+	        <os family="windows" />
+	    </condition>	
+	
+<taskdef resource="flexTasks.tasks" classpath="${FLEX_HOME}/ant/lib/flexTasks.jar" />
+	<target name="main" depends="clean-swc-directory, iconic-swc-generator" />  
+	
+	
+<!-- =================================
+  target: build SWC  
+  ================================= -->	
+	<target name="iconic-swc-generator">
+	  <property file="build_alt/build.properties" />
+	  <compc output="${basedir}/swc/iconic.swc" target-player="9.0.0">
+	  	<include-sources dir="${basedir}/src/com/somerandomdude/iconic" includes="*.as" />  	  
+	  <source-path path-element="${fp10_classes}" />
+	  </compc>
+	  </target>
+	
+
+	<!-- deletes and recreates the swc directory -->  
+	    <target name="clean-swc-directory" >   
+	       <delete file="${basedir}/swc/iconic.swc" />  
+	    </target>
+
+	
+</project>
