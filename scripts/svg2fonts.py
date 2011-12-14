@@ -98,4 +98,7 @@ for letter_config in letters:
 	c.left_side_bearing = 15
 	c.right_side_bearing = 15
 
+font.generate('iconic_stroke.svg')
 font.generate('iconic_stroke.ttf')
+font.generate('iconic_stroke.eot')
+font.generate('iconic_stroke.otf')
