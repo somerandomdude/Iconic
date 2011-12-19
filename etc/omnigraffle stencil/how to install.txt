@@ -1,0 +1,1 @@
+To install the stencils in OmniGraffle, copy the Iconic.gstencil file to ~/Library/Application Support/OmniGraffle/Stencils/
