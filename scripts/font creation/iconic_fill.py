@@ -185,9 +185,6 @@ letters = [
 
 font = fontforge.open('blank_fill.sfd')
 
-#var1 = '0xff00ff'
-#var2 = var1[2:].decode('hex')
-
 for letter_config in letters:
 	char = letter_config[0]
 	file_name = letter_config[1]
@@ -198,6 +195,8 @@ for letter_config in letters:
 
 	c.left_side_bearing = 15
 	c.right_side_bearing = 15
+
+#font files
 
 font.generate('iconic_fill.svg')
 font.generate('iconic_fill.ttf')
@@ -213,17 +212,12 @@ for letter_config in letters:
 	theHex = hex(theHex)
 	theString += "." + letter_config[1] + ":before {content:'\\" + theHex[2:] + "';}"
 
-
-
-#create the file (f)
-f = open("iconic-fill.css", 'w')
-#  write the data
+f = open("iconic_fill.css", 'w')
 f.write(theString)
-#  close the file
 f.close()
 
 #html file
-theString="<html><head><title>Iconic Font-embedding demo</title><link rel='stylesheet' href='iconic-fill.css' type='text/css' media='screen' /><style> body {font-family:'Helvetica', arial, sans-serif;} span { font-size:36px; }</style><body>"
+theString="<html><head><title>Iconic Font-embedding demo</title><link rel='stylesheet' href='iconic_fill.css' type='text/css' media='screen' /><style> body {font-family:'Helvetica', arial, sans-serif;} span { font-size:36px; }</style><body>"
 theString += "<table><tr><th>Name</th><th>Iconic Icon</th><th>Unicode Icon</th><th>Hexidecimal Code</th>"
 for letter_config in letters:
 	theHex = int(letter_config[0])
@@ -232,9 +226,6 @@ for letter_config in letters:
 
 theString += "</table></body></html>"
 	
-#create the file (f)
-f = open("iconic-fill-demo.html", 'w')
-#  write the data
+f = open("iconic_fill_demo.html", 'w')
 f.write(theString)
-#  close the file
 f.close()	
