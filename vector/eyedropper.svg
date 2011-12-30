@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
-<g id="Layer_1_1_">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="31.996px" height="32px" viewBox="0 0 31.996 32" style="enable-background:new 0 0 31.996 32;" xml:space="preserve">
+<g id="Layer_1">
 </g>
-<g id="eyedropper_x5F_32x32">
-	<path fill="#231F20" d="M29.658,13.684c3.123-3.118,3.123-8.18,0-11.297c-1.555-1.559-3.602-2.34-5.643-2.34
-		c-2.045,0-4.093,0.781-5.649,2.34l-0.593,0.59L14.798,0l-2.82,2.823l2.977,2.974L0,20.761v7.247L3.931,32h7.414l14.907-14.906
-		l2.875,2.879l2.82-2.82l-2.875-2.878L29.658,13.684z M10.321,27.365c0.047-1.512-0.477-3.033-1.627-4.186
-		c-1.061-1.061-2.443-1.582-3.834-1.63L17.782,8.628l5.642,5.638L10.321,27.365z"/>
+<g id="eyedropper">
+	<path style="fill:#010101;" d="M29.655,13.684c3.121-3.119,3.121-8.18,0-11.297c-1.559-1.559-3.605-2.34-5.648-2.34
+		c-2.041,0-4.088,0.781-5.646,2.34l-0.59,0.59L14.797,0l-2.82,2.822l2.977,2.975L0,20.76v7.248L3.93,32h7.414l14.901-14.906
+		l2.875,2.877l2.824-2.82l-2.879-2.877L29.655,13.684z M10.32,27.367c0.047-1.516-0.477-3.035-1.629-4.188
+		c-1.059-1.062-2.441-1.582-3.832-1.629L17.778,8.627l5.643,5.639L10.32,27.367z"/>
 </g>
 </svg>

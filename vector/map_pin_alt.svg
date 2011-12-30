@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="16px" height="32px" viewBox="0 0 16 32" enable-background="new 0 0 16 32" xml:space="preserve">
-<path d="M8,0C3.582,0,0,3.582,0,8s8,24,8,24s8-19.582,8-24S12.418,0,8,0z M8,12c-2.208,0-4-1.792-4-4s1.792-4,4-4
-	c2.207,0,4,1.792,4,4S10.207,12,8,12z"/>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px"
+	 height="32px" viewBox="0 0 16 32" style="enable-background:new 0 0 16 32;" xml:space="preserve">
+<g id="Layer_1">
+</g>
+<g id="map_x5F_pin_x5F_alt">
+	<path style="fill:#010101;" d="M8,0C3.582,0,0,3.582,0,8s8,24,8,24s8-19.582,8-24S12.418,0,8,0z M8,12c-2.209,0-4-1.791-4-4
+		s1.791-4,4-4s4,1.791,4,4S10.209,12,8,12z"/>
+</g>
 </svg>

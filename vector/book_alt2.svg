@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="32px" height="28px" viewBox="0 0 32 28" enable-background="new 0 0 32 28" xml:space="preserve">
-<path d="M16,4c0,0-4-4-16-4v24c12.125,0,16,4,16,4s3.875-4,16-4V0C20,0,16,4,16,4z M4,4c5.083,0.427,8.203,1.602,10,2.555v16.109
-	c-1.797-0.95-4.917-2.125-10-2.555V4z M27.996,20.109c-5.082,0.43-8.203,1.604-9.996,2.555V6.555
-	C19.793,5.602,22.914,4.427,27.996,4V20.109z"/>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px"
+	 height="28px" viewBox="0 0 32 28" style="enable-background:new 0 0 32 28;" xml:space="preserve">
+<g id="Layer_1">
+</g>
+<g id="book_x5F_alt2">
+	<path style="fill:#010101;" d="M16,4c0,0-4-4-16-4v24c12.125,0,16,4,16,4s3.875-4,16-4V0C20,0,16,4,16,4z M4,4
+		c5.084,0.426,8.203,1.602,10,2.555v16.109c-1.797-0.949-4.916-2.125-10-2.555V4z M28,20.109c-5.086,0.43-8.203,1.605-10,2.555
+		V6.555C19.797,5.602,22.914,4.426,28,4V20.109z"/>
+</g>
 </svg>

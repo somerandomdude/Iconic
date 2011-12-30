@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="24px" height="32px" viewBox="0 0 24 32" enable-background="new 0 0 24 32" xml:space="preserve">
-<g id="mic_x5F_24x32">
-	<g>
-		<path d="M12,16c2.211,0,4-1.792,4-4V4c0-2.208-1.789-4-4-4S8,1.792,8,4v8C8,14.208,9.789,16,12,16z"/>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px"
+	 height="32px" viewBox="0 0 24 32" style="enable-background:new 0 0 24 32;" xml:space="preserve">
+<g id="Layer_1">
+</g>
+<g id="mic">
+	<g id="mic_x5F_6x8_1_">
+		<g>
+			<path style="fill:#010101;" d="M12,16c2.211,0,4-1.791,4-4V4c0-2.209-1.789-4-4-4S8,1.791,8,4v8C8,14.209,9.789,16,12,16z"/>
+		</g>
+		<path style="fill:#010101;" d="M16,28h-2v-4.203C19.664,22.84,24,17.932,24,12v-1.938c0-1.105-0.895-2-2-2s-2,0.895-2,2V12
+			c0,4.412-3.586,8-8,8s-8-3.588-8-8v-1.938c0-1.105-0.895-2-2-2s-2,0.895-2,2V12c0,5.932,4.336,10.84,10,11.797V28H8
+			c-2.211,0-4,1.789-4,4h16C20,29.789,18.211,28,16,28z"/>
 	</g>
-	<path d="M16,28h-2v-4.203C19.664,22.84,24,17.932,24,12v-1.938c0-1.105-0.896-2-2-2c-1.109,0-2,0.895-2,2V12c0,4.412-3.586,8-8,8
-		s-8-3.588-8-8v-1.938c0-1.105-0.896-2-2-2c-1.109,0-2,0.895-2,2V12c0,5.932,4.336,10.84,10,11.797V28H8c-2.211,0-4,1.791-4,4h16
-		C20,29.791,18.211,28,16,28z"/>
 </g>
 </svg>

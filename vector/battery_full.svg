@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="32px" height="16px" viewBox="0 0 32 16" enable-background="new 0 0 32 16" xml:space="preserve">
-<path d="M32,4h-4V2c0-1.099-0.896-2-2-2H2C0.899,0,0,0.901,0,2v12c0,1.102,0.899,2,2,2h24c1.104,0,2-0.898,2-2v-2h4V4z"/>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px"
+	 height="16px" viewBox="0 0 32 16" style="enable-background:new 0 0 32 16;" xml:space="preserve">
+<g id="Layer_1">
+</g>
+<g id="battery_x5F_full">
+	<path style="fill:#010101;" d="M32,4h-4V2c0-1.098-0.898-2-2-2H2C0.898,0,0,0.902,0,2v12c0,1.102,0.898,2,2,2h24
+		c1.102,0,2-0.898,2-2v-2h4V4z"/>
+</g>
 </svg>

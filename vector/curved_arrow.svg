@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="32px" height="24px" viewBox="0 0 32 24" enable-background="new 0 0 32 24" xml:space="preserve">
-<path d="M28,14c0-7.729-6.27-14-14-14S0,6.271,0,14C0,8.477,4.477,4,10,4s10,4.477,10,10v2h-4l8,8l8-8h-4V14z"/>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px"
+	 height="24px" viewBox="0 0 32 24" style="enable-background:new 0 0 32 24;" xml:space="preserve">
+<g id="Layer_1">
+</g>
+<g id="curved_x5F_arrow">
+	<path style="fill:#010101;" d="M28,14c0-7.73-6.27-14-14-14S0,6.27,0,14C0,8.477,4.477,4,10,4s10,4.477,10,10v2h-4l8,8l8-8h-4V14z"
+		/>
+</g>
 </svg>

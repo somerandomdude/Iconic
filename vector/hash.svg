@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="28px" height="32px" viewBox="0 0 28 32" enable-background="new 0 0 28 32" xml:space="preserve">
-<path d="M28,12V8h-5.004l1-8h-4l-1,8h-7.998l1-8h-4l-1,8H0v4h6.499L5.5,20H0v4h5l-1,8h4l1-8h7.998l-1,8h4l1-8H28v-4h-6.502l0.998-8
-	H28z M17.498,20H9.5l0.999-8h7.998L17.498,20z"/>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px"
+	 height="32px" viewBox="0 0 28 32" style="enable-background:new 0 0 28 32;" xml:space="preserve">
+<g id="Layer_1">
+</g>
+<g id="hash">
+	<path style="fill:#010101;" d="M28,12V8h-5.004l1-8h-4l-1,8h-7.998l1-8h-4l-1,8H0v4h6.498L5.5,20H0v4h5l-1,8h4l1-8h7.998l-1,8H20
+		l1-8h7v-4h-6.5l0.996-8H28z M17.498,20H9.5l0.998-8h7.998L17.498,20z"/>
+</g>
 </svg>
