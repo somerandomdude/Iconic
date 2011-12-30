@@ -1,0 +1,363 @@
+/**
+ * Iconic iconset by P.J. Onori (http://www.somerandomdude.com/work/iconic/)
+ *
+ * Generated with iconic-css-sprite-sheet - https://github.com/endel/iconic-css-sprite-sheet
+ * by Endel Dreyer - http://github.com/endel
+ *
+ * Color: red
+ * Size: 8x8
+ * Date: 2011-12-27
+ */
+
+.iconic.red { background: url(iconic-red.png); width: 8px; height: 8px; display: inline-block; }
+
+.iconic.red.ampersand { background-position: 0px 0px; }
+
+.iconic.red.aperture { background-position: -8px 0px; }
+
+.iconic.red.aperture-alt { background-position: -16px 0px; }
+
+.iconic.red.arrow-down { background-position: -24px 0px; }
+
+.iconic.red.arrow-down-alt1 { background-position: -32px 0px; }
+
+.iconic.red.arrow-down-alt2 { background-position: -40px 0px; }
+
+.iconic.red.arrow-left { background-position: -48px 0px; }
+
+.iconic.red.arrow-left-alt1 { background-position: -56px 0px; }
+
+.iconic.red.arrow-left-alt2 { background-position: -64px 0px; }
+
+.iconic.red.arrow-right { background-position: -72px 0px; }
+
+.iconic.red.arrow-right-alt1 { background-position: -80px 0px; }
+
+.iconic.red.arrow-right-alt2 { background-position: -88px 0px; }
+
+.iconic.red.arrow-up { background-position: -96px 0px; }
+
+.iconic.red.arrow-up-alt1 { background-position: -104px 0px; }
+
+.iconic.red.arrow-up-alt2 { background-position: -112px 0px; }
+
+.iconic.red.article { background-position: -120px 0px; }
+
+.iconic.red.at { background-position: -128px 0px; }
+
+.iconic.red.award-fill { background-position: -136px 0px; }
+
+.iconic.red.award-stroke { background-position: -144px 0px; }
+
+.iconic.red.bars { background-position: -152px 0px; }
+
+.iconic.red.bars-alt { background-position: -160px 0px; }
+
+.iconic.red.battery-charging { background-position: -168px 0px; }
+
+.iconic.red.battery-empty { background-position: -176px 0px; }
+
+.iconic.red.battery-full { background-position: -184px 0px; }
+
+.iconic.red.battery-half { background-position: -192px 0px; }
+
+.iconic.red.beaker { background-position: -200px 0px; }
+
+.iconic.red.beaker-alt { background-position: -208px 0px; }
+
+.iconic.red.bolt { background-position: -216px 0px; }
+
+.iconic.red.book { background-position: -224px 0px; }
+
+.iconic.red.book-alt { background-position: -232px 0px; }
+
+.iconic.red.box { background-position: -240px 0px; }
+
+.iconic.red.brush { background-position: -248px 0px; }
+
+.iconic.red.brush-alt { background-position: -256px 0px; }
+
+.iconic.red.calendar { background-position: -264px 0px; }
+
+.iconic.red.calendar-alt-fill { background-position: -272px 0px; }
+
+.iconic.red.calendar-alt-stroke { background-position: -280px 0px; }
+
+.iconic.red.camera { background-position: -288px 0px; }
+
+.iconic.red.cd { background-position: -296px 0px; }
+
+.iconic.red.chart { background-position: -304px 0px; }
+
+.iconic.red.chart-alt { background-position: -312px 0px; }
+
+.iconic.red.chat { background-position: -320px 0px; }
+
+.iconic.red.chat-alt-fill { background-position: -328px 0px; }
+
+.iconic.red.chat-alt-stroke { background-position: -336px 0px; }
+
+.iconic.red.check-alt { background-position: -344px 0px; }
+
+.iconic.red.clock { background-position: -352px 0px; }
+
+.iconic.red.cloud { background-position: -360px 0px; }
+
+.iconic.red.cloud-download { background-position: -368px 0px; }
+
+.iconic.red.cloud-upload { background-position: -376px 0px; }
+
+.iconic.red.cog { background-position: -384px 0px; }
+
+.iconic.red.cog-alt { background-position: -392px 0px; }
+
+.iconic.red.comment-alt1-fill { background-position: -400px 0px; }
+
+.iconic.red.comment-alt1-stroke { background-position: -408px 0px; }
+
+.iconic.red.comment-alt2-fill { background-position: -416px 0px; }
+
+.iconic.red.comment-alt2-stroke { background-position: -424px 0px; }
+
+.iconic.red.comment-alt3-fill { background-position: -432px 0px; }
+
+.iconic.red.comment-alt3-stroke { background-position: -440px 0px; }
+
+.iconic.red.comment-fill { background-position: -448px 0px; }
+
+.iconic.red.comment-stroke { background-position: -456px 0px; }
+
+.iconic.red.compass { background-position: -464px 0px; }
+
+.iconic.red.cursor { background-position: -472px 0px; }
+
+.iconic.red.curved-arrow { background-position: -480px 0px; }
+
+.iconic.red.denied { background-position: -488px 0px; }
+
+.iconic.red.denied-alt { background-position: -496px 0px; }
+
+.iconic.red.dial { background-position: -504px 0px; }
+
+.iconic.red.document-alt-fill { background-position: -512px 0px; }
+
+.iconic.red.document-alt-stroke { background-position: -520px 0px; }
+
+.iconic.red.document-fill { background-position: -528px 0px; }
+
+.iconic.red.document-stroke { background-position: -536px 0px; }
+
+.iconic.red.download { background-position: -544px 0px; }
+
+.iconic.red.eject { background-position: -552px 0px; }
+
+.iconic.red.equalizer { background-position: -560px 0px; }
+
+.iconic.red.eye { background-position: -568px 0px; }
+
+.iconic.red.eyedropper { background-position: -576px 0px; }
+
+.iconic.red.first { background-position: -584px 0px; }
+
+.iconic.red.folder-fill { background-position: -592px 0px; }
+
+.iconic.red.folder-stroke { background-position: -600px 0px; }
+
+.iconic.red.fork { background-position: -608px 0px; }
+
+.iconic.red.fullscreen { background-position: -616px 0px; }
+
+.iconic.red.fullscreen-alt { background-position: -624px 0px; }
+
+.iconic.red.fullscreen-exit { background-position: -632px 0px; }
+
+.iconic.red.fullscreen-exit-alt { background-position: -640px 0px; }
+
+.iconic.red.hash { background-position: -648px 0px; }
+
+.iconic.red.heaphones { background-position: -656px 0px; }
+
+.iconic.red.heart-fill { background-position: -664px 0px; }
+
+.iconic.red.heart-stroke { background-position: -672px 0px; }
+
+.iconic.red.home { background-position: -680px 0px; }
+
+.iconic.red.image { background-position: -688px 0px; }
+
+.iconic.red.info { background-position: -696px 0px; }
+
+.iconic.red.iphone { background-position: -704px 0px; }
+
+.iconic.red.key-fill { background-position: -712px 0px; }
+
+.iconic.red.key-stroke { background-position: -720px 0px; }
+
+.iconic.red.last { background-position: -728px 0px; }
+
+.iconic.red.layers { background-position: -736px 0px; }
+
+.iconic.red.layers-alt { background-position: -744px 0px; }
+
+.iconic.red.left-quote { background-position: -752px 0px; }
+
+.iconic.red.left-quote-alt { background-position: -760px 0px; }
+
+.iconic.red.lightbulb { background-position: -768px 0px; }
+
+.iconic.red.link { background-position: -776px 0px; }
+
+.iconic.red.list { background-position: -784px 0px; }
+
+.iconic.red.lock-fill { background-position: -792px 0px; }
+
+.iconic.red.lock-stroke { background-position: -800px 0px; }
+
+.iconic.red.loop { background-position: -808px 0px; }
+
+.iconic.red.loop-alt1 { background-position: -816px 0px; }
+
+.iconic.red.loop-alt2 { background-position: -824px 0px; }
+
+.iconic.red.loop-alt3 { background-position: -832px 0px; }
+
+.iconic.red.loop-alt4 { background-position: -840px 0px; }
+
+.iconic.red.magnifying-glass { background-position: -848px 0px; }
+
+.iconic.red.magnifying-glass-alt { background-position: -856px 0px; }
+
+.iconic.red.mail { background-position: -864px 0px; }
+
+.iconic.red.mail-alt { background-position: -872px 0px; }
+
+.iconic.red.map-pin-alt { background-position: -880px 0px; }
+
+.iconic.red.map-pin-fill { background-position: -888px 0px; }
+
+.iconic.red.map-pin-stroke { background-position: -896px 0px; }
+
+.iconic.red.mic { background-position: -904px 0px; }
+
+.iconic.red.minus { background-position: -912px 0px; }
+
+.iconic.red.minus-alt { background-position: -920px 0px; }
+
+.iconic.red.moon-fill { background-position: -928px 0px; }
+
+.iconic.red.moon-stroke { background-position: -936px 0px; }
+
+.iconic.red.move { background-position: -944px 0px; }
+
+.iconic.red.move-alt1 { background-position: -952px 0px; }
+
+.iconic.red.move-alt2 { background-position: -960px 0px; }
+
+.iconic.red.move-horizontal { background-position: -968px 0px; }
+
+.iconic.red.move-horizontal-alt1 { background-position: -976px 0px; }
+
+.iconic.red.move-horizontal-alt2 { background-position: -984px 0px; }
+
+.iconic.red.move-vertical { background-position: -992px 0px; }
+
+.iconic.red.move-vertical-alt1 { background-position: -1000px 0px; }
+
+.iconic.red.move-vertical-alt2 { background-position: -1008px 0px; }
+
+.iconic.red.movie { background-position: -1016px 0px; }
+
+.iconic.red.new-window { background-position: -1024px 0px; }
+
+.iconic.red.pause { background-position: -1032px 0px; }
+
+.iconic.red.pen { background-position: -1040px 0px; }
+
+.iconic.red.pen-alt2 { background-position: -1048px 0px; }
+
+.iconic.red.pen-alt-fill { background-position: -1056px 0px; }
+
+.iconic.red.pen-alt-stroke { background-position: -1064px 0px; }
+
+.iconic.red.pilcrow { background-position: -1072px 0px; }
+
+.iconic.red.pin { background-position: -1080px 0px; }
+
+.iconic.red.play { background-position: -1088px 0px; }
+
+.iconic.red.play-alt { background-position: -1096px 0px; }
+
+.iconic.red.plus { background-position: -1104px 0px; }
+
+.iconic.red.plus-alt { background-position: -1112px 0px; }
+
+.iconic.red.question-mark { background-position: -1120px 0px; }
+
+.iconic.red.rain { background-position: -1128px 0px; }
+
+.iconic.red.read-more { background-position: -1136px 0px; }
+
+.iconic.red.reload { background-position: -1144px 0px; }
+
+.iconic.red.reload-alt1 { background-position: -1152px 0px; }
+
+.iconic.red.right-quote { background-position: -1160px 0px; }
+
+.iconic.red.right-quote-alt { background-position: -1168px 0px; }
+
+.iconic.red.rss { background-position: -1176px 0px; }
+
+.iconic.red.rss-alt { background-position: -1184px 0px; }
+
+.iconic.red.share { background-position: -1192px 0px; }
+
+.iconic.red.spin { background-position: -1200px 0px; }
+
+.iconic.red.spin-alt { background-position: -1208px 0px; }
+
+.iconic.red.star { background-position: -1216px 0px; }
+
+.iconic.red.steering-wheel { background-position: -1224px 0px; }
+
+.iconic.red.stop { background-position: -1232px 0px; }
+
+.iconic.red.sun { background-position: -1240px 0px; }
+
+.iconic.red.sun-alt-fill { background-position: -1248px 0px; }
+
+.iconic.red.sun-alt-stroke { background-position: -1256px 0px; }
+
+.iconic.red.tag-fill { background-position: -1264px 0px; }
+
+.iconic.red.tag-stroke { background-position: -1272px 0px; }
+
+.iconic.red.target { background-position: -1280px 0px; }
+
+.iconic.red.transfer { background-position: -1288px 0px; }
+
+.iconic.red.trash-fill { background-position: -1296px 0px; }
+
+.iconic.red.trash-stroke { background-position: -1304px 0px; }
+
+.iconic.red.umbrella { background-position: -1312px 0px; }
+
+.iconic.red.undo { background-position: -1320px 0px; }
+
+.iconic.red.unlock-fill { background-position: -1328px 0px; }
+
+.iconic.red.unlock-stroke { background-position: -1336px 0px; }
+
+.iconic.red.upload { background-position: -1344px 0px; }
+
+.iconic.red.user { background-position: -1352px 0px; }
+
+.iconic.red.volume { background-position: -1360px 0px; }
+
+.iconic.red.volume-mute { background-position: -1368px 0px; }
+
+.iconic.red.wrench { background-position: -1376px 0px; }
+
+.iconic.red.x { background-position: -1384px 0px; }
+
+.iconic.red.x-alt { background-position: -1392px 0px; }
+

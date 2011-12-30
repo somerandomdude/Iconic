@@ -4,6 +4,8 @@ import fontforge
 
 letters = [
 	[0x0023,"hash"],
+	[0x003F,"question_mark"],
+	[0x0040,"at"],
 	[0x00b6, "pilcrow"],
 	[0x2139, "info"],
 	[0x2190, "arrow_left"],
@@ -11,7 +13,7 @@ letters = [
 	[0x2192, "arrow_right"],
 	[0x2193, "arrow_down"],
 	[0x2302, "home"],
-	[0x2600, "sun"],
+	[0x2600, "sun_fill"],
 	[0x2601, "cloud"],
 	[0x2602, "umbrella"],
 	[0x2605, "star"],
@@ -191,7 +193,7 @@ for letter_config in letters:
 
 	c = font.createChar(char)
 
-	c.importOutlines('../vector/' + file_name + '.svg')
+	c.importOutlines('../../vector/' + file_name + '.svg')
 
 	c.left_side_bearing = 15
 	c.right_side_bearing = 15

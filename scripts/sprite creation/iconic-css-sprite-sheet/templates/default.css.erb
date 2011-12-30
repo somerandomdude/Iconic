@@ -1,0 +1,15 @@
+/**
+ * Iconic iconset by P.J. Onori (http://www.somerandomdude.com/work/iconic/)
+ *
+ * Generated with iconic-css-sprite-sheet - https://github.com/endel/iconic-css-sprite-sheet
+ * by Endel Dreyer - http://github.com/endel
+ *
+ * Color: <%= @color %>
+ * Size: <%= @size %>x<%= @size %>
+ * Date: <%= @date %>
+ */
+
+.iconic.<%= @color %> { background: url(<%= @output %>.png); width: <%= @size %>px; height: <%= @size %>px; display: inline-block; }
+<% @icons.each_with_index do |icon, i| %>
+.iconic.<%= @color %>.<%= icon %> { background-position: <%= (-@size * i).to_s %>px 0px; }
+<% end %>

@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Iconic CSS Sprite Sheet</title>
+    <link rel="stylesheet" href="assets/iconic-black.css" type="text/css" media="screen"  />
+    <link rel="stylesheet" href="assets/iconic-red.css" type="text/css" media="screen" />
+
+  <style>
+    /* ------------------------------------------------------------------------------------------------------------- RESET */
+    html, body, div, form, p,
+    code, pre { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
+    /* ------------------------------------------------------------------------------------------------------------- TEMPLATE */
+    h1 .author { font-size: 24px; }
+
+    body { font: 12pt sans-serif; color: #444; background: #eee; padding-bottom: 48px; }
+
+    a { color: #980905; }
+    a:hover, a:focus, a:active { text-decoration: none; }
+
+    h1 { margin: 0 0 0.5em; font-size: 36px; }
+    h2 { margin: 0 0 0.75em; font-size: 22px; }
+    h3 { margin: 0 0 0.333em; font-size: 16px; font-weight: normal; }
+    p { margin: 0 0 1.333em; }
+    em { font-style: italic; }
+    table { border-collapse: separate; border-spacing: 0; margin: 0; vertical-align: middle; }
+    th { font-weight: bold; }
+    th, td { padding: 5px 25px 5px 5px; text-align: left; vertical-align: middle; }
+    pre, code { font-family: monospace, sans-serif; font-size: 1em; color:#080; }
+
+    /* ------------------------------------------------------------------------------------------------------------- TEMPLATE */
+
+    .container { position:relative; overflow:hidden; width: 510px; padding: 40px 60px; border: 1px solid #ccc; margin: 40px auto 20px; background: #fff; -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.1); -moz-box-shadow: 0 0 15px rgba(0,0,0,0.1); box-shadow: 0 0 15px rgba(0,0,0,0.1); }
+
+    .container pre,
+    .container .prettyprint { padding: 0; border: 0; margin: 0 0 20px; font-size: 13px; background: #fff; }
+    .container .options { font-size: 13px; }
+
+    .ribbon { position: absolute; top: -1px; right: -1px; opacity: 0.9; }
+    .ribbon:hover, .ribbon:focus, .ribbon:active { opacity: 1; }
+    .ribbon img { display: block; border: 0; }
+
+    .header { padding-right:80px; }
+
+    .section { margin: 40px 0 20px; }
+
+    .example { padding: 20px; border: 1px solid #ccc; margin: 10px -20px 20px; }
+
+    .footer { margin: 26px 0 50px; font-size: 1em; color: #666; text-align: center; }
+    .footer a { color: #666; }
+    .iconic { margin: 0 0 4px 4px; }
+  </style>
+
+  </head>
+  <body>
+    <div class="container">
+      <a class="ribbon" href="https://github.com/endel/iconic-css-sprite-sheet" target="_blank"><img src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+
+      <div class="header">
+        <h1>Iconic CSS Sprite Sheet <span class="author">by Endel Dreyer</span></h1>
+        <p>A CSS and PNG Sprite Sheet generator for <a href="http://www.somerandomdude.com/work/iconic/">Iconic</a> iconset</p>
+      </div>
+
+      <div class="header">
+        <h2>Requirements</h2>
+        <ul>
+          <li><a href="http://git-scm.com/download">Git</a> (of course)</li>
+          <li><a href="http://www.imagemagick.org" target="_blank">ImageMagick 6.6+ or later</a></li>
+          <li><a href="http://pngnq.sourceforge.net" target="_blank">pngnq</a> (optional, for better PNG compression)</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>How to use</h2>
+        <p>Clone the repository from your command-line. see all avaible colors and sizes for generation. </p>
+<pre>
+$ git clone https://github.com/endel/iconic-css-sprite-sheet.git
+$ cd iconic-css-sprite-sheet
+$ rake -D
+</pre>
+
+        <p>Generate the CSS and PNG Sprite Sheet from your command-line using <code>rake [color]:[size]</code>.</p>
+<pre>
+$ rake black:12x12 output=my-icons
+</pre>
+        <p>The <code>output</code> parameter is optional, and should have no extension.</p>
+
+      </div>
+
+      <div class="section">
+        <h2>Black (12x12) icons example</h2>
+        <span class="iconic black ampersand"></span>
+        <span class="iconic black aperture"></span>
+        <span class="iconic black aperture-alt"></span>
+        <span class="iconic black arrow-down"></span>
+        <span class="iconic black arrow-down-alt1"></span>
+        <span class="iconic black arrow-down-alt2"></span>
+        <span class="iconic black arrow-left"></span>
+        <span class="iconic black arrow-left-alt1"></span>
+        <span class="iconic black arrow-left-alt2"></span>
+        <span class="iconic black arrow-right"></span>
+        <span class="iconic black arrow-right-alt1"></span>
+        <span class="iconic black arrow-right-alt2"></span>
+        <span class="iconic black arrow-up"></span>
+        <span class="iconic black arrow-up-alt1"></span>
+        <span class="iconic black arrow-up-alt2"></span>
+        <span class="iconic black article"></span>
+        <span class="iconic black at"></span>
+        <span class="iconic black award-fill"></span>
+        <span class="iconic black award-stroke"></span>
+        <span class="iconic black bars"></span>
+        <span class="iconic black bars-alt"></span>
+        <span class="iconic black battery-charging"></span>
+        <span class="iconic black battery-empty"></span>
+        <span class="iconic black battery-full"></span>
+        <span class="iconic black battery-half"></span>
+        <span class="iconic black beaker"></span>
+        <span class="iconic black beaker-alt"></span>
+        <span class="iconic black bolt"></span>
+        <span class="iconic black book"></span>
+        <span class="iconic black book-alt"></span>
+        <span class="iconic black box"></span>
+        <span class="iconic black brush"></span>
+        <span class="iconic black brush-alt"></span>
+        <span class="iconic black calendar"></span>
+        <span class="iconic black calendar-alt-fill"></span>
+        <span class="iconic black calendar-alt-stroke"></span>
+        <span class="iconic black camera"></span>
+        <span class="iconic black cd"></span>
+        <span class="iconic black chart"></span>
+        <span class="iconic black chart-alt"></span>
+        <span class="iconic black chat"></span>
+        <span class="iconic black chat-alt-fill"></span>
+        <span class="iconic black chat-alt-stroke"></span>
+        <span class="iconic black check-alt"></span>
+        <span class="iconic black clock"></span>
+        <span class="iconic black cloud-download"></span>
+        <span class="iconic black cloud-upload"></span>
+        <span class="iconic black cog"></span>
+        <span class="iconic black cog-alt"></span>
+        <span class="iconic black comment-alt1-fill"></span>
+        <span class="iconic black comment-alt1-stroke"></span>
+        <span class="iconic black comment-alt2-fill"></span>
+        <span class="iconic black comment-alt2-stroke"></span>
+        <span class="iconic black comment-alt3-fill"></span>
+        <span class="iconic black comment-alt3-stroke"></span>
+        <span class="iconic black compass"></span>
+        <span class="iconic black cursor"></span>
+        <span class="iconic black curved-arrow"></span>
+        <span class="iconic black denied"></span>
+        <span class="iconic black denied-alt"></span>
+        <span class="iconic black dial"></span>
+        <span class="iconic black document-alt-fill"></span>
+        <span class="iconic black document-alt-stroke"></span>
+        <span class="iconic black document-fill"></span>
+        <span class="iconic black document-stroke"></span>
+        <span class="iconic black download"></span>
+        <span class="iconic black eject"></span>
+        <span class="iconic black equalizer"></span>
+        <span class="iconic black eye"></span>
+        <span class="iconic black eyedropper"></span>
+        <span class="iconic black first"></span>
+        <span class="iconic black folder-fill"></span>
+        <span class="iconic black folder-stroke"></span>
+        <span class="iconic black fork"></span>
+        <span class="iconic black fullscreen"></span>
+        <span class="iconic black fullscreen-alt"></span>
+        <span class="iconic black fullscreen-exit"></span>
+        <span class="iconic black fullscreen-exit-alt"></span>
+        <span class="iconic black hash"></span>
+        <span class="iconic black home"></span>
+        <span class="iconic black image"></span>
+        <span class="iconic black info"></span>
+        <span class="iconic black iphone"></span>
+        <span class="iconic black key-fill"></span>
+        <span class="iconic black key-stroke"></span>
+        <span class="iconic black last"></span>
+        <span class="iconic black layers-alt"></span>
+        <span class="iconic black left-quote"></span>
+        <span class="iconic black left-quote-alt"></span>
+        <span class="iconic black lightbulb"></span>
+        <span class="iconic black link"></span>
+        <span class="iconic black lock-fill"></span>
+        <span class="iconic black lock-stroke"></span>
+        <span class="iconic black loop"></span>
+        <span class="iconic black loop-alt1"></span>
+        <span class="iconic black loop-alt3"></span>
+        <span class="iconic black loop-alt4"></span>
+        <span class="iconic black magnifying-glass"></span>
+        <span class="iconic black magnifying-glass-alt"></span>
+        <span class="iconic black mail"></span>
+        <span class="iconic black mail-alt"></span>
+        <span class="iconic black map-pin-alt"></span>
+        <span class="iconic black map-pin-fill"></span>
+        <span class="iconic black map-pin-stroke"></span>
+        <span class="iconic black mic"></span>
+        <span class="iconic black minus-alt"></span>
+        <span class="iconic black moon-fill"></span>
+        <span class="iconic black moon-stroke"></span>
+        <span class="iconic black move"></span>
+        <span class="iconic black move-alt1"></span>
+        <span class="iconic black move-alt2"></span>
+        <span class="iconic black move-horizontal"></span>
+        <span class="iconic black move-horizontal-alt1"></span>
+        <span class="iconic black move-horizontal-alt2"></span>
+        <span class="iconic black move-vertical"></span>
+        <span class="iconic black move-vertical-alt1"></span>
+        <span class="iconic black move-vertical-alt2"></span>
+        <span class="iconic black movie"></span>
+        <span class="iconic black new-window"></span>
+        <span class="iconic black pause"></span>
+        <span class="iconic black pen"></span>
+        <span class="iconic black pen-alt2"></span>
+        <span class="iconic black pen-alt-fill"></span>
+        <span class="iconic black pen-alt-stroke"></span>
+        <span class="iconic black pilcrow"></span>
+        <span class="iconic black pin"></span>
+        <span class="iconic black play"></span>
+        <span class="iconic black play-alt"></span>
+        <span class="iconic black plus"></span>
+        <span class="iconic black plus-alt"></span>
+        <span class="iconic black question-mark"></span>
+        <span class="iconic black read-more"></span>
+        <span class="iconic black right-quote"></span>
+        <span class="iconic black right-quote-alt"></span>
+        <span class="iconic black rss"></span>
+        <span class="iconic black rss-alt"></span>
+        <span class="iconic black share"></span>
+        <span class="iconic black spin"></span>
+        <span class="iconic black spin-alt"></span>
+        <span class="iconic black star"></span>
+        <span class="iconic black steering-wheel"></span>
+        <span class="iconic black stop"></span>
+        <span class="iconic black sun"></span>
+        <span class="iconic black sun-alt-fill"></span>
+        <span class="iconic black sun-alt-stroke"></span>
+        <span class="iconic black tag-fill"></span>
+        <span class="iconic black tag-stroke"></span>
+        <span class="iconic black target"></span>
+        <span class="iconic black transfer"></span>
+        <span class="iconic black trash-fill"></span>
+        <span class="iconic black trash-stroke"></span>
+        <span class="iconic black umbrella"></span>
+        <span class="iconic black undo"></span>
+        <span class="iconic black unlock-fill"></span>
+        <span class="iconic black unlock-stroke"></span>
+        <span class="iconic black upload"></span>
+        <span class="iconic black user"></span>
+        <span class="iconic black volume"></span>
+        <span class="iconic black volume-mute"></span>
+        <span class="iconic black wrench"></span>
+        <span class="iconic black x-alt"></span>
+      </div>
+
+      <div class="section">
+        <h2>Red (8x8) icons example</h2>
+        <span class="iconic red ampersand"></span>
+        <span class="iconic red aperture"></span>
+        <span class="iconic red aperture-alt"></span>
+        <span class="iconic red arrow-down"></span>
+        <span class="iconic red arrow-down-alt1"></span>
+        <span class="iconic red arrow-down-alt2"></span>
+        <span class="iconic red arrow-left"></span>
+        <span class="iconic red arrow-left-alt1"></span>
+        <span class="iconic red arrow-left-alt2"></span>
+        <span class="iconic red arrow-right"></span>
+        <span class="iconic red arrow-right-alt1"></span>
+        <span class="iconic red arrow-right-alt2"></span>
+        <span class="iconic red arrow-up"></span>
+        <span class="iconic red arrow-up-alt1"></span>
+        <span class="iconic red arrow-up-alt2"></span>
+        <span class="iconic red article"></span>
+        <span class="iconic red at"></span>
+        <span class="iconic red award-fill"></span>
+        <span class="iconic red award-stroke"></span>
+        <span class="iconic red bars"></span>
+        <span class="iconic red bars-alt"></span>
+        <span class="iconic red battery-charging"></span>
+        <span class="iconic red battery-empty"></span>
+        <span class="iconic red battery-full"></span>
+        <span class="iconic red battery-half"></span>
+        <span class="iconic red beaker"></span>
+        <span class="iconic red beaker-alt"></span>
+        <span class="iconic red bolt"></span>
+        <span class="iconic red book"></span>
+        <span class="iconic red book-alt"></span>
+        <span class="iconic red box"></span>
+        <span class="iconic red brush"></span>
+        <span class="iconic red brush-alt"></span>
+        <span class="iconic red calendar"></span>
+        <span class="iconic red calendar-alt-fill"></span>
+        <span class="iconic red calendar-alt-stroke"></span>
+        <span class="iconic red camera"></span>
+        <span class="iconic red cd"></span>
+        <span class="iconic red chart"></span>
+        <span class="iconic red chart-alt"></span>
+        <span class="iconic red chat"></span>
+        <span class="iconic red chat-alt-fill"></span>
+        <span class="iconic red chat-alt-stroke"></span>
+        <span class="iconic red check-alt"></span>
+        <span class="iconic red clock"></span>
+        <span class="iconic red cloud-download"></span>
+        <span class="iconic red cloud-upload"></span>
+        <span class="iconic red cog"></span>
+        <span class="iconic red cog-alt"></span>
+        <span class="iconic red comment-alt1-fill"></span>
+        <span class="iconic red comment-alt1-stroke"></span>
+        <span class="iconic red comment-alt2-fill"></span>
+        <span class="iconic red comment-alt2-stroke"></span>
+        <span class="iconic red comment-alt3-fill"></span>
+        <span class="iconic red comment-alt3-stroke"></span>
+        <span class="iconic red compass"></span>
+        <span class="iconic red cursor"></span>
+        <span class="iconic red curved-arrow"></span>
+        <span class="iconic red denied"></span>
+        <span class="iconic red denied-alt"></span>
+        <span class="iconic red dial"></span>
+        <span class="iconic red document-alt-fill"></span>
+        <span class="iconic red document-alt-stroke"></span>
+        <span class="iconic red document-fill"></span>
+        <span class="iconic red document-stroke"></span>
+        <span class="iconic red download"></span>
+        <span class="iconic red eject"></span>
+        <span class="iconic red equalizer"></span>
+        <span class="iconic red eye"></span>
+        <span class="iconic red eyedropper"></span>
+        <span class="iconic red first"></span>
+        <span class="iconic red folder-fill"></span>
+        <span class="iconic red folder-stroke"></span>
+        <span class="iconic red fork"></span>
+        <span class="iconic red fullscreen"></span>
+        <span class="iconic red fullscreen-alt"></span>
+        <span class="iconic red fullscreen-exit"></span>
+        <span class="iconic red fullscreen-exit-alt"></span>
+        <span class="iconic red hash"></span>
+        <span class="iconic red home"></span>
+        <span class="iconic red image"></span>
+        <span class="iconic red info"></span>
+        <span class="iconic red iphone"></span>
+        <span class="iconic red key-fill"></span>
+        <span class="iconic red key-stroke"></span>
+        <span class="iconic red last"></span>
+        <span class="iconic red layers-alt"></span>
+        <span class="iconic red left-quote"></span>
+        <span class="iconic red left-quote-alt"></span>
+        <span class="iconic red lightbulb"></span>
+        <span class="iconic red link"></span>
+        <span class="iconic red lock-fill"></span>
+        <span class="iconic red lock-stroke"></span>
+        <span class="iconic red loop"></span>
+        <span class="iconic red loop-alt1"></span>
+        <span class="iconic red loop-alt3"></span>
+        <span class="iconic red loop-alt4"></span>
+        <span class="iconic red magnifying-glass"></span>
+        <span class="iconic red magnifying-glass-alt"></span>
+        <span class="iconic red mail"></span>
+        <span class="iconic red mail-alt"></span>
+        <span class="iconic red map-pin-alt"></span>
+        <span class="iconic red map-pin-fill"></span>
+        <span class="iconic red map-pin-stroke"></span>
+        <span class="iconic red mic"></span>
+        <span class="iconic red minus-alt"></span>
+        <span class="iconic red moon-fill"></span>
+        <span class="iconic red moon-stroke"></span>
+        <span class="iconic red move"></span>
+        <span class="iconic red move-alt1"></span>
+        <span class="iconic red move-alt2"></span>
+        <span class="iconic red move-horizontal"></span>
+        <span class="iconic red move-horizontal-alt1"></span>
+        <span class="iconic red move-horizontal-alt2"></span>
+        <span class="iconic red move-vertical"></span>
+        <span class="iconic red move-vertical-alt1"></span>
+        <span class="iconic red move-vertical-alt2"></span>
+        <span class="iconic red movie"></span>
+        <span class="iconic red new-window"></span>
+        <span class="iconic red pause"></span>
+        <span class="iconic red pen"></span>
+        <span class="iconic red pen-alt2"></span>
+        <span class="iconic red pen-alt-fill"></span>
+        <span class="iconic red pen-alt-stroke"></span>
+        <span class="iconic red pilcrow"></span>
+        <span class="iconic red pin"></span>
+        <span class="iconic red play"></span>
+        <span class="iconic red play-alt"></span>
+        <span class="iconic red plus"></span>
+        <span class="iconic red plus-alt"></span>
+        <span class="iconic red question-mark"></span>
+        <span class="iconic red read-more"></span>
+        <span class="iconic red right-quote"></span>
+        <span class="iconic red right-quote-alt"></span>
+        <span class="iconic red rss"></span>
+        <span class="iconic red rss-alt"></span>
+        <span class="iconic red share"></span>
+        <span class="iconic red spin"></span>
+        <span class="iconic red spin-alt"></span>
+        <span class="iconic red star"></span>
+        <span class="iconic red steering-wheel"></span>
+        <span class="iconic red stop"></span>
+        <span class="iconic red sun"></span>
+        <span class="iconic red sun-alt-fill"></span>
+        <span class="iconic red sun-alt-stroke"></span>
+        <span class="iconic red tag-fill"></span>
+        <span class="iconic red tag-stroke"></span>
+        <span class="iconic red target"></span>
+        <span class="iconic red transfer"></span>
+        <span class="iconic red trash-fill"></span>
+        <span class="iconic red trash-stroke"></span>
+        <span class="iconic red umbrella"></span>
+        <span class="iconic red undo"></span>
+        <span class="iconic red unlock-fill"></span>
+        <span class="iconic red unlock-stroke"></span>
+        <span class="iconic red upload"></span>
+        <span class="iconic red user"></span>
+        <span class="iconic red volume"></span>
+        <span class="iconic red volume-mute"></span>
+        <span class="iconic red wrench"></span>
+        <span class="iconic red x-alt"></span>
+      </div>
+
+      <div class="section">
+        <h2>Browser compatibility</h2>
+        <p>Tested on the following browsers. It doesn't mean that it isn't supported by old versions not listed here.</p>
+        <ul>
+          <li>Google Chrome 16.0.912.63 beta</li>
+          <li>Safari 5.1.1</li>
+          <li>Firefox 8.0.1</li>
+          <li>Internet Explorer 7+</li>
+        </ul>
+        <p>If you've tested on a older browser please let me know <a href="http://github.com/endel">leaving a message on Github</a>.</p>
+      </div>
+
+
+      <div class="section">
+        <h2>License</h2>
+        <p>
+          This project is released under the MIT License.<br />
+          <a href="http://www.somerandomdude.com/work/iconic/">Iconic</a> is licensed under Creative Commons Attribution-ShareAlike 3.0 Unported.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Special Thanks</h2>
+        <p>Special thanks to Microsoft Internet Explorer, without him this project would never exist. Webfonts are great.</p>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      <a href="http://github.com/endel/iconic-css-sprite-sheet">iconic-css-sprite-sheet</a> by <a href="http://endel.me" title="Personal Endel Dreyer Website">Endel Dreyer</a>.
+    </div>
+  </body>
+</html>

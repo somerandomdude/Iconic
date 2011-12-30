@@ -1,0 +1,335 @@
+/**
+ * Iconic iconset by P.J. Onori (http://www.somerandomdude.com/work/iconic/)
+ *
+ * Generated with iconic-css-sprite-sheet - https://github.com/endel/iconic-css-sprite-sheet
+ * by Endel Dreyer - http://github.com/endel
+ *
+ * Color: black
+ * Size: 12x12
+ * Date: 2011-12-27
+ */
+
+.iconic.black { width: 12px; height: 12px; display: inline-block; background: url(iconic-black.png); }
+
+.iconic.black.ampersand { background-position: 0px 0px; }
+
+.iconic.black.aperture { background-position: -12px 0px; }
+
+.iconic.black.aperture-alt { background-position: -24px 0px; }
+
+.iconic.black.arrow-down { background-position: -36px 0px; }
+
+.iconic.black.arrow-down-alt1 { background-position: -48px 0px; }
+
+.iconic.black.arrow-down-alt2 { background-position: -60px 0px; }
+
+.iconic.black.arrow-left { background-position: -72px 0px; }
+
+.iconic.black.arrow-left-alt1 { background-position: -84px 0px; }
+
+.iconic.black.arrow-left-alt2 { background-position: -96px 0px; }
+
+.iconic.black.arrow-right { background-position: -108px 0px; }
+
+.iconic.black.arrow-right-alt1 { background-position: -120px 0px; }
+
+.iconic.black.arrow-right-alt2 { background-position: -132px 0px; }
+
+.iconic.black.arrow-up { background-position: -144px 0px; }
+
+.iconic.black.arrow-up-alt1 { background-position: -156px 0px; }
+
+.iconic.black.arrow-up-alt2 { background-position: -168px 0px; }
+
+.iconic.black.article { background-position: -180px 0px; }
+
+.iconic.black.at { background-position: -192px 0px; }
+
+.iconic.black.award-fill { background-position: -204px 0px; }
+
+.iconic.black.award-stroke { background-position: -216px 0px; }
+
+.iconic.black.bars { background-position: -228px 0px; }
+
+.iconic.black.bars-alt { background-position: -240px 0px; }
+
+.iconic.black.battery-charging { background-position: -252px 0px; }
+
+.iconic.black.battery-empty { background-position: -264px 0px; }
+
+.iconic.black.battery-full { background-position: -276px 0px; }
+
+.iconic.black.battery-half { background-position: -288px 0px; }
+
+.iconic.black.beaker { background-position: -300px 0px; }
+
+.iconic.black.beaker-alt { background-position: -312px 0px; }
+
+.iconic.black.bolt { background-position: -324px 0px; }
+
+.iconic.black.book { background-position: -336px 0px; }
+
+.iconic.black.book-alt { background-position: -348px 0px; }
+
+.iconic.black.box { background-position: -360px 0px; }
+
+.iconic.black.brush { background-position: -372px 0px; }
+
+.iconic.black.brush-alt { background-position: -384px 0px; }
+
+.iconic.black.calendar { background-position: -396px 0px; }
+
+.iconic.black.calendar-alt-fill { background-position: -408px 0px; }
+
+.iconic.black.calendar-alt-stroke { background-position: -420px 0px; }
+
+.iconic.black.camera { background-position: -432px 0px; }
+
+.iconic.black.cd { background-position: -444px 0px; }
+
+.iconic.black.chart { background-position: -456px 0px; }
+
+.iconic.black.chart-alt { background-position: -468px 0px; }
+
+.iconic.black.chat { background-position: -480px 0px; }
+
+.iconic.black.chat-alt-fill { background-position: -492px 0px; }
+
+.iconic.black.chat-alt-stroke { background-position: -504px 0px; }
+
+.iconic.black.check-alt { background-position: -516px 0px; }
+
+.iconic.black.clock { background-position: -528px 0px; }
+
+.iconic.black.cloud-download { background-position: -540px 0px; }
+
+.iconic.black.cloud-upload { background-position: -552px 0px; }
+
+.iconic.black.cog { background-position: -564px 0px; }
+
+.iconic.black.cog-alt { background-position: -576px 0px; }
+
+.iconic.black.comment-alt1-fill { background-position: -588px 0px; }
+
+.iconic.black.comment-alt1-stroke { background-position: -600px 0px; }
+
+.iconic.black.comment-alt2-fill { background-position: -612px 0px; }
+
+.iconic.black.comment-alt2-stroke { background-position: -624px 0px; }
+
+.iconic.black.comment-alt3-fill { background-position: -636px 0px; }
+
+.iconic.black.comment-alt3-stroke { background-position: -648px 0px; }
+
+.iconic.black.compass { background-position: -660px 0px; }
+
+.iconic.black.cursor { background-position: -672px 0px; }
+
+.iconic.black.curved-arrow { background-position: -684px 0px; }
+
+.iconic.black.denied { background-position: -696px 0px; }
+
+.iconic.black.denied-alt { background-position: -708px 0px; }
+
+.iconic.black.dial { background-position: -720px 0px; }
+
+.iconic.black.document-alt-fill { background-position: -732px 0px; }
+
+.iconic.black.document-alt-stroke { background-position: -744px 0px; }
+
+.iconic.black.document-fill { background-position: -756px 0px; }
+
+.iconic.black.document-stroke { background-position: -768px 0px; }
+
+.iconic.black.download { background-position: -780px 0px; }
+
+.iconic.black.eject { background-position: -792px 0px; }
+
+.iconic.black.equalizer { background-position: -804px 0px; }
+
+.iconic.black.eye { background-position: -816px 0px; }
+
+.iconic.black.eyedropper { background-position: -828px 0px; }
+
+.iconic.black.first { background-position: -840px 0px; }
+
+.iconic.black.folder-fill { background-position: -852px 0px; }
+
+.iconic.black.folder-stroke { background-position: -864px 0px; }
+
+.iconic.black.fork { background-position: -876px 0px; }
+
+.iconic.black.fullscreen { background-position: -888px 0px; }
+
+.iconic.black.fullscreen-alt { background-position: -900px 0px; }
+
+.iconic.black.fullscreen-exit { background-position: -912px 0px; }
+
+.iconic.black.fullscreen-exit-alt { background-position: -924px 0px; }
+
+.iconic.black.hash { background-position: -936px 0px; }
+
+.iconic.black.home { background-position: -948px 0px; }
+
+.iconic.black.image { background-position: -960px 0px; }
+
+.iconic.black.info { background-position: -972px 0px; }
+
+.iconic.black.iphone { background-position: -984px 0px; }
+
+.iconic.black.key-fill { background-position: -996px 0px; }
+
+.iconic.black.key-stroke { background-position: -1008px 0px; }
+
+.iconic.black.last { background-position: -1020px 0px; }
+
+.iconic.black.layers-alt { background-position: -1032px 0px; }
+
+.iconic.black.left-quote { background-position: -1044px 0px; }
+
+.iconic.black.left-quote-alt { background-position: -1056px 0px; }
+
+.iconic.black.lightbulb { background-position: -1068px 0px; }
+
+.iconic.black.link { background-position: -1080px 0px; }
+
+.iconic.black.lock-fill { background-position: -1092px 0px; }
+
+.iconic.black.lock-stroke { background-position: -1104px 0px; }
+
+.iconic.black.loop { background-position: -1116px 0px; }
+
+.iconic.black.loop-alt1 { background-position: -1128px 0px; }
+
+.iconic.black.loop-alt3 { background-position: -1140px 0px; }
+
+.iconic.black.loop-alt4 { background-position: -1152px 0px; }
+
+.iconic.black.magnifying-glass { background-position: -1164px 0px; }
+
+.iconic.black.magnifying-glass-alt { background-position: -1176px 0px; }
+
+.iconic.black.mail { background-position: -1188px 0px; }
+
+.iconic.black.mail-alt { background-position: -1200px 0px; }
+
+.iconic.black.map-pin-alt { background-position: -1212px 0px; }
+
+.iconic.black.map-pin-fill { background-position: -1224px 0px; }
+
+.iconic.black.map-pin-stroke { background-position: -1236px 0px; }
+
+.iconic.black.mic { background-position: -1248px 0px; }
+
+.iconic.black.minus-alt { background-position: -1260px 0px; }
+
+.iconic.black.moon-fill { background-position: -1272px 0px; }
+
+.iconic.black.moon-stroke { background-position: -1284px 0px; }
+
+.iconic.black.move { background-position: -1296px 0px; }
+
+.iconic.black.move-alt1 { background-position: -1308px 0px; }
+
+.iconic.black.move-alt2 { background-position: -1320px 0px; }
+
+.iconic.black.move-horizontal { background-position: -1332px 0px; }
+
+.iconic.black.move-horizontal-alt1 { background-position: -1344px 0px; }
+
+.iconic.black.move-horizontal-alt2 { background-position: -1356px 0px; }
+
+.iconic.black.move-vertical { background-position: -1368px 0px; }
+
+.iconic.black.move-vertical-alt1 { background-position: -1380px 0px; }
+
+.iconic.black.move-vertical-alt2 { background-position: -1392px 0px; }
+
+.iconic.black.movie { background-position: -1404px 0px; }
+
+.iconic.black.new-window { background-position: -1416px 0px; }
+
+.iconic.black.pause { background-position: -1428px 0px; }
+
+.iconic.black.pen { background-position: -1440px 0px; }
+
+.iconic.black.pen-alt2 { background-position: -1452px 0px; }
+
+.iconic.black.pen-alt-fill { background-position: -1464px 0px; }
+
+.iconic.black.pen-alt-stroke { background-position: -1476px 0px; }
+
+.iconic.black.pilcrow { background-position: -1488px 0px; }
+
+.iconic.black.pin { background-position: -1500px 0px; }
+
+.iconic.black.play { background-position: -1512px 0px; }
+
+.iconic.black.play-alt { background-position: -1524px 0px; }
+
+.iconic.black.plus { background-position: -1536px 0px; }
+
+.iconic.black.plus-alt { background-position: -1548px 0px; }
+
+.iconic.black.question-mark { background-position: -1560px 0px; }
+
+.iconic.black.read-more { background-position: -1572px 0px; }
+
+.iconic.black.right-quote { background-position: -1584px 0px; }
+
+.iconic.black.right-quote-alt { background-position: -1596px 0px; }
+
+.iconic.black.rss { background-position: -1608px 0px; }
+
+.iconic.black.rss-alt { background-position: -1620px 0px; }
+
+.iconic.black.share { background-position: -1632px 0px; }
+
+.iconic.black.spin { background-position: -1644px 0px; }
+
+.iconic.black.spin-alt { background-position: -1656px 0px; }
+
+.iconic.black.star { background-position: -1668px 0px; }
+
+.iconic.black.steering-wheel { background-position: -1680px 0px; }
+
+.iconic.black.stop { background-position: -1692px 0px; }
+
+.iconic.black.sun { background-position: -1704px 0px; }
+
+.iconic.black.sun-alt-fill { background-position: -1716px 0px; }
+
+.iconic.black.sun-alt-stroke { background-position: -1728px 0px; }
+
+.iconic.black.tag-fill { background-position: -1740px 0px; }
+
+.iconic.black.tag-stroke { background-position: -1752px 0px; }
+
+.iconic.black.target { background-position: -1764px 0px; }
+
+.iconic.black.transfer { background-position: -1776px 0px; }
+
+.iconic.black.trash-fill { background-position: -1788px 0px; }
+
+.iconic.black.trash-stroke { background-position: -1800px 0px; }
+
+.iconic.black.umbrella { background-position: -1812px 0px; }
+
+.iconic.black.undo { background-position: -1824px 0px; }
+
+.iconic.black.unlock-fill { background-position: -1836px 0px; }
+
+.iconic.black.unlock-stroke { background-position: -1848px 0px; }
+
+.iconic.black.upload { background-position: -1860px 0px; }
+
+.iconic.black.user { background-position: -1872px 0px; }
+
+.iconic.black.volume { background-position: -1884px 0px; }
+
+.iconic.black.volume-mute { background-position: -1896px 0px; }
+
+.iconic.black.wrench { background-position: -1908px 0px; }
+
+.iconic.black.x-alt { background-position: -1920px 0px; }
+
