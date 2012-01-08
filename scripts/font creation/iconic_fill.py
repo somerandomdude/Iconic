@@ -207,7 +207,7 @@ font.generate('iconic_fill.otf')
 
 #css file
 
-theString="@font-face { font-family: 'IconicFill'; src: url('iconic_fill.eot'); src: local('IconicFill'), url('iconic_fill.svg#iconic') format('svg'), url('iconic_fill.otf') format('opentype'); }"
+theString="@font-face { font-family: 'IconicFill'; src: url('iconic_fill.eot'); src: url('iconic_fill.eot?#iefix') format('embedded-opentype'), url('iconic_fill.ttf') format('truetype'), url('iconic_fill.svg#iconic') format('svg'); font-weight: normal; font-style: normal; }"
 theString+=".iconic { display:inline-block; font-family: 'IconicFill'; }"
 for letter_config in letters:
 	theHex = int(letter_config[0])

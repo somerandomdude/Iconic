@@ -207,7 +207,7 @@ font_stroke.generate('iconic_stroke.otf')
 
 #css file
 
-theString="@font-face { font-family: 'IconicStroke'; src: url('iconic_stroke.eot'); src: local('IconicStroke'), url('iconic_stroke.svg#iconic') format('svg'), url('iconic_stroke.otf') format('opentype'); }"
+theString="@font-face { font-family: 'IconicStroke'; src: url('iconic_stroke.eot'); src: url('iconic_stroke.eot?#iefix') format('embedded-opentype'), url('iconic_stroke.ttf') format('truetype'), url('iconic_stroke.svg#iconic') format('svg'); font-weight: normal; font-style: normal; }"
 theString+=".iconic { display:inline-block; font-family: 'IconicStroke'; }"
 for letter_config in letters:
 	theHex = int(letter_config[0])
