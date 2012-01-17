@@ -14,7 +14,7 @@ There are Python scripts to generate the Iconic font files (including demo HTML/
 
 ### Generating PNGs
 
-Iconic has two different JSX ExtendScripts for generating transparent PNGs. The scripts are run in Adobe Illustrator (Learn more here)[http://help.adobe.com/en_US/illustrator/cs/using/WS714a382cdf7d304e7e07d0100196cbc5f-62a3a.html]. To generate all icons at all sizes and colors, use _scripts/raster creation/SaveLayersAsPNG.jsx_ (this script will take a long time). To generate icons at a custom color and/or a subset of sizes use _scripts/raster creation/SaveLayersAsCustomPNG.jsx_
+Iconic has two different JSX ExtendScripts for generating transparent PNGs. The scripts are run in Adobe Illustrator [Learn more here](http://help.adobe.com/en_US/illustrator/cs/using/WS714a382cdf7d304e7e07d0100196cbc5f-62a3a.html). To generate all icons at all sizes and colors, use _scripts/raster creation/SaveLayersAsPNG.jsx_ (this script will take a long time). To generate icons at a custom color and/or a subset of sizes use _scripts/raster creation/SaveLayersAsCustomPNG.jsx_
 
 ### Generating SVGs
 
