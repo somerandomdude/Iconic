@@ -2,9 +2,17 @@
 
 ### Iconic aims to be the most forward-thinking icon set around based on its support of forward facing display/deployment methods. Icons should not just be clear and attractive, they should be easy and flexible to work with. [Learn more about Iconic](http://somerandomdude.com/work/iconic/)
 
+## Using Iconic
+
+* SVG files can be found in the _vector/_ folder
+* PNG files in all sizes and one color (black) can be found in the _raster/_ folder
+* Fonts in two weights (stroke and fill) as well as demo HTML and CSS files can be found in the _font/_ folder
+* Illustrator symbols can be found in the _etc/illustrator symbols_ folder
+* Omnigraffle stencils can be found in the _etc/omnigraffle stencil_ folder
+
 ## Building Iconic
 
-### Creating New Icons
+### Designing New Icons
 
 All icons within the set are built around a strict grid. If you want to design new icons for the set, you can use the grid as your guide at _source/Template.ai_ (CS5 format). In addition, all the icons are available for reference and/or modification at _source/Iconic_all.ai_ (CS5 format).
 
