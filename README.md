@@ -37,7 +37,7 @@ All AS3 files and ANT build scripts can be found at  _scripts/swc creation/_
 ##Licensing 
 
 ###Icons
-All icons (located in the _vector/_, _raster/_, _source/_ and _etc/_ directories) are licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License] (http://creativecommons.org/licenses/by-sa/3.0/)
+All icons (located in the _vector/_, _raster/_, _source/_ and _etc/_ directories) are licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/)
 
 ###Fonts
 All fonts (located in the _fonts/_ directory) are licensed under the [SIL Open Font License](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
