@@ -5,8 +5,8 @@
 	 height="32px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 <g id="Layer_1">
 </g>
-<g id="arrow_x5F_up_x5F_alt2">
-	<path style="fill:#010101;" d="M32,16c0-8.836-7.164-16-16-16S0,7.164,0,16s7.164,16,16,16S32,24.836,32,16z M12,22h2V6h4v16h2
-		l-4,4L12,22z"/>
+<g id="arrow_x5F_down_x5F_alt2">
+	<path style="fill:#010101;" d="M0,16c0,8.836,7.164,16,16,16s16-7.164,16-16S24.836,0,16,0S0,7.164,0,16z M20,10h-2v16h-4V10h-2
+		l4-4L20,10z"/>
 </g>
 </svg>
