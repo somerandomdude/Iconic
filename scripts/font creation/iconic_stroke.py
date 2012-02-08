@@ -18,9 +18,9 @@
 import fontforge
 
 letters = [
-	[0x0023,"hash"],
-	[0x003F,"question_mark"],
-	[0x0040,"at"],
+	[0x0023, "hash"],
+	[0x003F, "question_mark"],
+	[0x0040, "at"],
 	[0x00b6, "pilcrow"],
 	[0x2139, "info"],
 	[0x2190, "arrow_left"],
@@ -169,7 +169,7 @@ letters = [
 	[0xe05c, "battery_empty"],
 	[0xe05d, "battery_charging"],
 	[0xe05e, "chat"],
-	
+
 	#temporary unicode values until Webkit fixes support
 	[0xe05f, "mic"],
 	[0xe060, "movie"],
@@ -239,10 +239,10 @@ theString += "<table><tr><th>Name</th><th>Iconic Icon</th><th>Unicode Icon</th><
 for letter_config in letters:
 	theHex = int(letter_config[0])
 	theHex = hex(theHex)
-	theString += "<tr><td>" + letter_config[1] + "</td><td><span class='iconic " + letter_config[1] + "'></span></td><td><span class='" + letter_config[1] + "'></span></td><td>" + theHex + "</td></tr>" 
+	theString += "<tr><td>" + letter_config[1] + "</td><td><span class='iconic " + letter_config[1] + "'></span></td><td><span class='" + letter_config[1] + "'></span></td><td>" + theHex + "</td></tr>"
 
 theString += "</table></body></html>"
-	
+
 f = open("iconic_stroke_demo.html", 'w')
 f.write(theString)
 f.close()
