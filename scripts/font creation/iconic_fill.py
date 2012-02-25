@@ -28,9 +28,10 @@ font = fontforge.open('blank_fill.sfd')
 
 for file_name, char in data.iteritems():
 	c = font.createChar(int("0x" + char, 16))
-
+	
 	c.importOutlines('../../vector/' + file_name + '.svg')
-
+	c.autoHint()
+	
 	c.left_side_bearing = 15
 	c.right_side_bearing = 15
 
