@@ -41,6 +41,7 @@ font.generate('iconic_fill.svg')
 font.generate('iconic_fill.ttf')
 font.generate('iconic_fill.eot')
 font.generate('iconic_fill.otf')
+font.generate('iconic_fill.woff')
 
 #css file
 

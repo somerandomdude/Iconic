@@ -39,6 +39,7 @@ font.generate('iconic_stroke.svg')
 font.generate('iconic_stroke.ttf')
 font.generate('iconic_stroke.eot')
 font.generate('iconic_stroke.otf')
+font.generate('iconic_stroke.woff')
 
 #css file
 
