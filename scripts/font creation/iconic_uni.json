@@ -26,10 +26,10 @@
     "denied"               : "1f6ab",
     "mail"                 : "2709",
     "pen"                  : "270e",
-    "check"                : "2717",
-    "check_alt"            : "2718",
-    "x"                    : "2713",
-    "x_alt"                : "2714",
+    "check"                : "2713",
+    "check_alt"            : "2714",
+    "x"                    : "2717",
+    "x_alt"                : "2718",
     "left_quote"           : "275d",
     "right_quote"          : "275e",
     "plus"                 : "2795",
@@ -167,5 +167,6 @@
     "unlock_fill"          : "1f513",
     "link"                 : "1f517",
     "wrench"               : "1f527",
-    "clock"                : "1f554"
+    "clock"                : "1f554",
+	"paperclip"			   : "e08a"
 }
