@@ -1,0 +1,7 @@
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg style="enable-background:new 0 0 32 32" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" height="32px" width="32px" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+	<g fill="#010101">
+		<rect height="4" width="8" y="8" x="12"/>
+		<path d="m28 8l4-4h-4v-4h-24c-2.2 0-4 1.8-4 4v24c0 2.2 1.8 4 4 4h24v-20h4l-4-4zm-4 20h-16v-24h16v24z"/>
+	</g>
+</svg>

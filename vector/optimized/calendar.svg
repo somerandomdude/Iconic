@@ -1,0 +1,9 @@
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg style="enable-background:new 0 0 32 32" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" height="32px" width="32px" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+	<g fill="#010101">
+		<polygon points="24 4 24 0 20 0 20 4 12 4 12 0 7.9 0 7.9 4 0 4 0 8 7.9 8 12 8 20 8 24 8 32 8 32 4"/>
+		<rect height="4" width="24" y="20" x="4"/>
+		<rect height="4" width="24" y="12" x="4"/>
+		<polygon points="24 32 4 32 4 28 28 28"/>
+	</g>
+</svg>

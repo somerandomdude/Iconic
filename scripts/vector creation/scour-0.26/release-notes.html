@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scour Release Notes</title>
+</head>
+<body>
+
+<h1><a href="http://codedread.com/scour/">Scour</a> Release Notes</h1>
+
+<p>Copyright 2010, Jeff Schiller</p>
+
+<section id="0.25">
+	<header>
+		<h2><a href="#0.25">Version 0.25</a></h2>
+	</header>
+	<p>2010-07-11</p>
+	<ul>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/541889">Bug 541889</a> to parse polygon/polyline points missing whitespace/comma separating a negative value.  Always output points attributes as comma-separated.</li>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/519698">Bug 519698</a> to properly parse move commands that have line segments.</li>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/577940">Bug 577940</a> to include stroke-dasharray into list of style properties turned into XML attributes.</li>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/562784">Bug 562784</a>, typo in Inkscape description</li>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/603988">Bug 603988</a>, do not commonize attributes if the element is referenced elsewhere.</li>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/604000">Bug 604000</a>, correctly remove default overflow attributes.</li>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/603994">Bug 603994</a>, fix parsing of &lt;style&gt; element contents when a CDATA is present</li>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/583758">Bug 583758</a>, added a bit to the Inkscape help text saying that groups aren't collapsed if IDs are also not stripped.</li>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/583458">Bug 583458</a>, another typo in the Inkscape help tab.</li>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/594930">Bug 594930</a>,  In a &lt;switch&gt;, require one level of &lt;g&gt; if there was a &lt;g&gt; in the file already. Otherwise, only the first subelement of the &lt;g&gt; is chosen and rendered.</li>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/576958">Bug 576958</a>, "Viewbox option doesn't work when units are set", when renderer workarounds are disabled.</li>
+		<li>Added many options: --remove-metadata, --quiet, --enable-comment-stripping, --shorten-ids, --renderer-workaround.</li>
+	</ul>
+</section>
+
+<section id="0.24">
+	<header>
+		<h2><a href="#0.24">Version 0.24</a></h2>
+	</header>
+	<p>2010-02-05</p>
+	<ul>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/517064">Bug 517064</a> to make XML well-formed again</li>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/503750">Bug 503750</a> fix Inkscape extension to correctly pass --enable-viewboxing</li>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/511186">Bug 511186</a> to allow comments outside of the root &lt;svg&gt; node</li>
+	</ul>
+</section>
+
+<section id="0.23">
+	<header>
+		<h2><a href="#0.23">Version 0.23</a></h2>
+	</header>
+	<p>2010-01-04</p>
+	<ul>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/482215">Bug 482215</a> by using os.linesep to end lines</li>
+		<li>Fix unittests to run properly in Windows</li>
+		<li>Removed default scaling of image to 100%/100% and creating a viewBox.  Added --enable-viewboxing option to explicitly turn that on</li>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/503034">Bug 503034</a> by only removing children of a group if the group itself has not been referenced anywhere else in the file</li>
+	</ul>
+</section>
+
+<section id="0.22">
+	<header>
+		<h2><a href="#0.22">Version 0.22</a></h2>
+	</header>
+	<p>Nov 9th, 2009</p>
+	<ul>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/449803">Bug 449803</a> by ensuring input and output filenames differ.</li>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/453737">Bug 453737</a> by updated Inkscape's scour extension with a UI</li>
+		<li>Fix whitespace collapsing on non-textual elements that had xml:space="preserve"</li>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/479669">Bug 479669</a> to handle empty &lt;style&gt; elements.</li>
+	</ul>
+</section>
+
+<section id="0.21">
+	<header>
+		<h2><a href="#0.21">Version 0.21</a></h2>
+	</header>
+	<p>Sep 27th, 2009</p>
+	<ul>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/427309">Bug 427309</a> by updated Scour inkscape extension file to include yocto_css.py</li>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/435689">Bug 435689</a> by properly preserving whitespace in XML serialization</li>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/436569">Bug 436569</a> by getting xlink:href prefix correct with invalid SVG</li>
+	</ul>
+</section>
+
+<section id="0.20">
+	<header>
+		<h2><a href="#0.20">Version 0.20</a></h2>
+	</header>
+	<p>Aug 31st, 2009</p>
+	<ul>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/368716">Bug 368716</a> by implementing a really tiny CSS parser to find out if any style element have rules referencing gradients, filters, etc</li>
+		<li>Remove unused attributes from parent elements</li>
+		<li>Fix a bug with polygon/polyline point parsing if there was whitespace at the end</li>
+	</ul>
+</section>
+
+<section id="0.19">
+	<header>
+		<h2><a href="#0.19">Version 0.19</a></h2>
+	</header>
+	<p>Aug 13th, 2009</p>
+	<ul>
+		<li>Fix XML serialization bug: xmlns:XXX prefixes not preserved when not in default namespace</li>
+		<li>Fix XML serialization bug: remapping to default namespace was not actually removing the old prefix</li>
+		<li>Move common attributes to ancestor elements</li>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/401628">Bug 412754</a>: Elliptical arc commands must have comma/whitespace separating the coordinates</li>
+		<li>Scour lengths for svg x,y,width,height,*opacity,stroke-width,stroke-miterlimit</li>
+	</ul>
+</section>
+
+<section id="0.18">
+	<header>
+		<h2><a href="#0.18">Version 0.18</a></h2>
+	</header>
+	<p>Aug 9th, 2009</p>
+	<ul>
+		<li>Remove attributes of gradients if they contain default values</li>
+		<li>Reduce bezier/quadratic (c/q) segments to their shorthand equivalents (s/t)</li>
+		<li>Move to a custom XML serialization such that id/xml:id is printed first (Thanks to Richard Hutch for the suggestion)</li>
+		<li>Added --indent option to specify indentation type (default='space', other options: 'none', 'tab')</li>
+	</ul>
+</section>
+
+<section id="0.17">
+	<header>
+		<h2><a href="#0.17">Version 0.17</a></h2>
+	</header>
+	<p>Aug 3rd, 2009</p>
+	<ul>
+		<li>Only convert to #RRGGBB format if the color name will actually be shorter</li>
+		<li>Remove duplicate gradients</li>
+		<li>Remove empty q,a path segments</li>
+		<li>Scour polyline coordinates just like path/polygon</li>
+		<li>Scour lengths from most attributes</li>
+		<li>Remove redundant SVG namespace declarations and prefixes</li>
+	</ul>
+</section>
+
+<section id="0.16">
+	<header>
+		<h2><a href="#0.16">Version 0.16</a></h2>
+	</header>
+	<p>July 30th, 2009</p>
+	<ul>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/401628">Bug 401628</a>: Keep namespace declarations when using --keep-editor-data (Thanks YoNoSoyTu!)</li>
+		<li>Remove trailing zeros after decimal places for all path coordinates</li>
+		<li>Use scientific notation in path coordinates if that representation is shorter</li>
+		<li>Scour polygon coordinates just like path coordinates</li>
+		<li>Add XML prolog to scour output to ensure valid XML, added --strip-xml-prolog option</li>
+	</ul>
+</section>
+
+<section id="0.15">
+	<header>
+		<h2><a href="#0.15">Version 0.15</a></h2>
+	</header>
+	<p>July 5th, 2009</p>
+	<ul>
+		<li>added --keep-editor-data command-line option</li>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/395645">Bug 395645</a>: Keep all identified children inside a defs (Thanks Frederik!)</li>
+		<li>Fix <a href="https://bugs.launchpad.net/scour/+bug/395647">Bug 395647</a>: Do not remove closepath (Z) path segments</li>
+	</ul>
+</section>
+
+<section id="0.14">
+	<header>
+		<h2><a href="#0.14">Version 0.14</a></h2>
+	</header>
+	<p>June 10th, 2009</p>
+	<ul>
+		<li>Collapse adjacent commands of the same type</li>
+		<li>Convert straight curves into line commands</li>
+		<li>Eliminate last segment in a polygon</li>
+		<li>Rework command-line argument parsing</li>
+		<li>Fix bug in embedRasters() caused by new command-line parsing</li>
+		<li>added --disable-embed-rasters command-line option</li>
+	</ul>
+</section>
+
+<section id="0.13">
+	<header>
+		<h2><a href="#0.13">Version 0.13</a></h2>
+	</header>
+	<p>May 19th, 2009</p>
+	<ul>
+		<li>properly deal with fill="url(&amp;quot;#foo&amp;quot;)"</li>
+		<li>properly handle paths with more than 1 pair of coordinates in the first Move command</li>
+		<li>remove font/text styles from shape elements (font-weight, font-size, line-height, etc)</li>
+		<li>remove -inkscape-font-specification styles</li>
+		<li>added --set-precision argument to set the number of significant digits (defaults to 5 now)</li>
+		<li>collapse consecutive h,v coords/segments that go in the same direction</li>
+	</ul>
+</section>
+
+<section id="0.12">
+	<header>
+		<h2><a href="#0.12">Version 0.12</a></h2>
+	</header>
+	<p>May 17th, 2009</p>
+	<ul>
+		<li>upgraded enthought's path parser to handle scientific notation in path coordinates</li>
+		<li>convert colors to #RRGGBB format</li>
+		<li>added option to disable color conversion</li>
+	</ul>
+</section>
+
+<section id="0.11">
+	<header>
+		<h2><a href="#0.11">Version 0.11</a></h2>
+	</header>
+	<p>April 28th, 2009</p>
+	<ul>
+		<li>convert gradient stop offsets from percentages to float</li>
+		<li>convert gradient stop offsets to integers if possible (0 or 1)</li>
+		<li>fix bug in line-to-hv conversion</li>
+		<li>handle non-ASCII characters (Unicode)</li>
+		<li>remove empty line or curve segments from path</li>
+		<li>added option to prevent style-to-xml conversion</li>
+		<li>handle compressed svg (svgz) on the input and output</li>
+		<li>added total time taken to the report</li>
+		<li>Removed XML pretty printing because of <a href="http://ronrothman.com/public/leftbraned/xml-dom-minidom-toprettyxml-and-silly-whitespace/">this problem</a>.</li>
+	</ul>
+</section>
+
+<section id="0.10">
+	<header>
+		<h2><a href="#0.10">Version 0.10</a></h2>
+	</header>
+	<p>April 27th, 2009</p>
+	<ul>
+		<li>Remove path with empty d attributes</li>
+		<li>Sanitize path data (remove unnecessary whitespace)</li>
+		<li>Convert from absolute to relative path data</li>
+		<li>Remove trailing zeroes from path data</li>
+		<li>Limit to no more than 6 digits of precision</li>
+		<li>Remove empty line segments</li>
+		<li>Convert lines to horiz/vertical line segments where possible</li>
+		<li>Remove some more default styles (display:none, visibility:visible, overflow:visible,
+		    marker:none)</li>
+	</ul>
+</section>
+
+<section id="0.09">
+	<header>
+		<h2><a href="#0.09">Version 0.09</a></h2>
+	</header>
+	<p>April 25th, 2009</p>
+	<ul>
+		<li>Fix bug when removing stroke styles</li>
+		<li>Remove gradients that are only referenced by one other gradient</li>
+		<li>Added option to prevent group collapsing</li>
+		<li>Prevent groups with title/desc children from being collapsed</li>
+		<li>Remove stroke="none"</li>
+	</ul>
+</section>
+
+<section id="0.08">
+	<header>
+		<h2><a href="#0.08">Version 0.08</a></h2>
+	</header>
+	<p>April 22nd, 2009</p>
+	<ul>
+		<li>Remove unnecessary nested &lt;g&gt; elements</li>
+		<li>Remove duplicate gradient stops (same offset, stop-color, stop-opacity)</li>
+		<li>Always keep fonts inside &lt;defs&gt;, always keep ids on fonts</li>
+		<li>made ID stripping optional (disabled by default)</li>
+	</ul>
+</section>
+
+<section id="0.07">
+	<header>
+		<h2><a href="#0.07">Version 0.07</a></h2>
+	</header>
+	<p>April 15th, 2009</p>
+	<ul>
+		<li>moved all functionality into a module level function named 'scour' and began adding unit tests</li>
+		<li>prevent metadata from being removed if they contain only text nodes</li>
+		<li>Remove unreferenced pattern and gradient elements outside of defs</li>
+		<li>Removal of extra whitespace, pretty printing of XML</li>
+	</ul>
+</section>
+
+<section id="0.06">
+	<header>
+		<h2><a href="#0.06">Version 0.06</a></h2>
+	</header>
+	<p>April 13th, 2009</p>
+	<ul>
+		<li>Prevent error when stroke-width property value has a unit</li>
+		<li>Convert width/height into a viewBox where possible</li>
+		<li>Convert all referenced rasters into base64 encoded URLs if the files can be found</li>
+	</ul>
+</section>
+
+<section id="0.05">
+	<header>
+		<h2><a href="#0.05">Version 0.05 and earlier</a></h2>
+	</header>
+	<p>April 7th, 2009</p>
+	<ul>
+		<li>Removes unreferenced elements in a &lt;defs&gt;</li>
+		<li>Removes all inkscape, sodipodi, adobe elements</li>
+		<li>Removes all inkscape, sodipodi, adobe attributes</li>
+		<li>Remove all unused namespace declarations on the document element</li>
+		<li>Removes any empty &lt;defs&gt;, &lt;metadata&gt;, or &lt;g&gt; elements</li>
+		<li>Style fix-ups:
+			<ul><li>Fixes any style properties like this: <code>style="fill: url(#linearGradient1000) rgb(0, 0, 0);"</code></li>
+			<li>Removes any style property of: <code>opacity: 1;</code></li>
+			<li>Removes any stroke properties when stroke=none or stroke-opacity=0 or stroke-width=0</li>
+			<li>Removes any fill properties when fill=none or fill-opacity=0</li>
+			<li>Removes all fill/stroke properties when opacity=0</li>
+			<li>Removes any <code>stop-opacity: 1</code></li>
+			<li>Removes any <code>fill-opacity: 1</code></li>
+			<li>Removes any <code>stroke-opacity: 1</code></li>
+		</ul></li>
+		<li>Convert style properties into SVG attributes</li>
+	</ul>
+
+</section>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+﻿python scour.py -i cog.svg -o cog_sm.svg --strip-xml-prolog --enable-comment-stripping --enable-id-stripping --set-precision=4 --shorten-ids --indent=none
